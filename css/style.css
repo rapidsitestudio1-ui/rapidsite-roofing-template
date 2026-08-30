@@ -543,14 +543,50 @@ h3 { font-size: var(--fs-h4); }
   gap: clamp(1.25rem, 2vw, 1.875rem);
 }
 .team__grid li {
+  position: relative;
   background: #555555;
   border-radius: var(--radius);
   overflow: hidden;
 }
-.team__grid img {
+.team__grid li > img {
   width: 100%;
   aspect-ratio: 380 / 420;
   object-fit: cover;
+}
+.team-card__overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background: var(--color-white);
+  padding: 30px;
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.35s ease, transform 0.35s ease;
+}
+.team-card:hover .team-card__overlay,
+.team-card:focus-within .team-card__overlay {
+  opacity: 1;
+  transform: none;
+}
+.team-card__bio { color: var(--color-body); max-width: 260px; }
+.team-card__socials { display: flex; gap: 12px; margin-top: 24px; }
+.team-card__socials a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px; height: 40px;
+  border: 1px solid var(--color-border);
+  border-radius: 999px;
+  transition: border-color 0.2s ease, transform 0.2s ease;
+}
+.team-card__socials a:hover { border-color: var(--color-accent); transform: translateY(-2px); }
+.team-card__id { margin-top: auto; }
+.team-card__name { font-weight: 700; font-size: var(--fs-h4); letter-spacing: -0.02em; }
+.team-card__role { color: var(--color-body); margin-top: 4px; }
+@media (prefers-reduced-motion: reduce) {
+  .team-card__overlay { transition: none; transform: none; }
 }
 
 /* ===== Reviews ===== */
