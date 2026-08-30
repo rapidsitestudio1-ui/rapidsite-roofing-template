@@ -128,7 +128,7 @@ h3 { font-size: var(--fs-h4); }
 .nav__cta:hover { background: var(--color-accent); }
 .nav__cta:hover .btn__circle { color: var(--color-accent); }
 .hero__cta:hover { background: var(--color-accent); }
-.btn--orange:hover { background: var(--color-navy); border-color: rgba(255, 255, 255, 0.3); }
+.btn--orange:hover { background: var(--color-slate); border-color: rgba(255, 255, 255, 0.35); }
 .btn--ghost:hover { background: var(--color-accent); border-color: var(--color-accent); color: var(--color-white); }
 .btn--ghost:hover .btn__circle--navy { background: var(--color-white); color: var(--color-navy); }
 
