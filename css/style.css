@@ -127,7 +127,7 @@ h3 { font-size: var(--fs-h4); }
 /* Accent hover on navbar + hero CTAs (requested) */
 .nav__cta:hover { background: var(--color-accent); }
 .nav__cta:hover .btn__circle { color: var(--color-accent); }
-.hero__cta:hover { background: var(--color-accent-deep); }
+.hero__cta:hover { background: var(--color-accent); }
 .btn--orange:hover { background: var(--color-accent-deep); }
 .btn--ghost:hover { background: var(--color-accent); border-color: var(--color-accent); color: var(--color-white); }
 .btn--ghost:hover .btn__circle--navy { background: var(--color-white); color: var(--color-navy); }
