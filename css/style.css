@@ -116,7 +116,8 @@ h3 { font-size: var(--fs-h4); }
   font-size: 1rem;
   transition: transform 0.25s ease, background 0.25s ease, color 0.25s ease;
 }
-.btn:hover .btn__circle { transform: rotate(-45deg); }
+.btn:hover .btn__circle { transform: rotate(45deg); }
+.btn__circle svg { display: block; }
 .btn__circle--navy { background: var(--color-navy); color: var(--color-white); }
 
 .btn--navy { background: var(--color-navy); color: var(--color-white); }
