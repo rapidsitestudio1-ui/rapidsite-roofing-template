@@ -739,7 +739,7 @@ h3 { font-size: var(--fs-h4); }
 .field select option { color: var(--color-navy); }
 .field textarea { resize: vertical; min-height: 120px; }
 .field input:focus, .field select:focus, .field textarea:focus { outline: 2px solid var(--color-accent); }
-.contact__form .btn { justify-self: start; border-radius: var(--radius); }
+.contact__form .btn { justify-self: start; }
 
 /* ===== Blog ===== */
 .blog__grid {
@@ -862,9 +862,9 @@ h3 { font-size: var(--fs-h4); }
   gap: clamp(2rem, 4vw, 4.5rem);
   padding-bottom: clamp(3rem, 6vw, 7.5rem);
 }
-.footer__logo { display: inline-flex; align-items: center; gap: 8px; margin-bottom: 20px; }
-.footer__label { font-weight: 500; color: rgba(255, 255, 255, 0.8); margin-bottom: 24px; }
-.footer__brand .footer__label { margin: 40px 0 20px; }
+.footer__logo { display: inline-flex; align-items: center; gap: 8px; margin-bottom: 28px; }
+.footer__label { font-weight: 500; color: rgba(255, 255, 255, 0.8); margin-bottom: 28px; }
+.footer__brand .footer__label { margin: 48px 0 24px; }
 .footer__social { display: flex; align-items: center; gap: 14px; color: rgba(255, 255, 255, 0.8); }
 .footer__sep { width: 1px; height: 20px; background: rgba(255, 255, 255, 0.14); }
 .footer__social a {
@@ -880,7 +880,7 @@ h3 { font-size: var(--fs-h4); }
   transition: background 0.2s ease, color 0.2s ease;
 }
 .footer__social a:hover { background: var(--color-accent); border-color: var(--color-accent); }
-.footer__form { display: flex; flex-direction: column; align-items: flex-start; gap: 15px; max-width: 300px; }
+.footer__form { display: flex; flex-direction: column; align-items: flex-start; gap: 20px; max-width: 300px; }
 .footer__form input {
   font: inherit;
   color: var(--color-white);
@@ -892,8 +892,7 @@ h3 { font-size: var(--fs-h4); }
 }
 .footer__form input::placeholder { color: rgba(255, 255, 255, 0.6); }
 .footer__form input:focus { outline: 2px solid var(--color-accent); }
-.footer__form .btn { border-radius: var(--radius); }
-.footer__col ul { display: flex; flex-direction: column; gap: 18px; color: var(--color-white); }
+.footer__col ul { display: flex; flex-direction: column; gap: 24px; color: var(--color-white); }
 .footer__col a { transition: color 0.2s ease; }
 .footer__col a:hover { color: var(--color-accent); }
 .footer__bottom {
