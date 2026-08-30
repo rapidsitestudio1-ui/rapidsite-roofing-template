@@ -457,6 +457,36 @@ h3 { font-size: var(--fs-h4); }
   gap: 40px;
 }
 .bento--navy p { color: rgba(255, 255, 255, 0.8); max-width: 400px; margin-top: 14px; }
+.bento__decor {
+  position: absolute;
+  pointer-events: none;
+  z-index: 0;
+}
+.bento--navy > :not(.bento__decor),
+.bento--orange > :not(.bento__decor) { position: relative; z-index: 1; }
+.bento__decor--tiles {
+  top: -18%;
+  right: -12%;
+  width: 72%;
+  height: auto;
+  opacity: 0.08;
+}
+.bento__decor--zigzag {
+  inset: -30%;
+  width: 160%;
+  height: 160%;
+  object-fit: cover;
+  transform: rotate(-174deg);
+  opacity: 0.85;
+}
+.bento__decor--house {
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center 65%;
+  opacity: 0.08;
+}
 .bento--photo { grid-column: span 18; }
 .bento--photo .bento__bg, .bento--img .bento__bg {
   position: absolute;
@@ -512,11 +542,15 @@ h3 { font-size: var(--fs-h4); }
   grid-template-columns: repeat(3, 1fr);
   gap: clamp(1.25rem, 2vw, 1.875rem);
 }
+.team__grid li {
+  background: #555555;
+  border-radius: var(--radius);
+  overflow: hidden;
+}
 .team__grid img {
   width: 100%;
   aspect-ratio: 380 / 420;
   object-fit: cover;
-  border-radius: var(--radius);
 }
 
 /* ===== Reviews ===== */
