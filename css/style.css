@@ -129,8 +129,8 @@ h3 { font-size: var(--fs-h4); }
 .nav__cta:hover .btn__circle { color: var(--color-accent); }
 .hero__cta:hover { background: var(--color-accent-deep); }
 .btn--orange:hover { background: var(--color-accent-deep); }
-.btn--ghost:hover { border-color: var(--color-accent); color: var(--color-accent); }
-.btn--ghost:hover .btn__circle--navy { background: var(--color-accent); }
+.btn--ghost:hover { background: var(--color-accent); border-color: var(--color-accent); color: var(--color-white); }
+.btn--ghost:hover .btn__circle--navy { background: var(--color-white); color: var(--color-navy); }
 
 /* ===== Header ===== */
 .site-header {
