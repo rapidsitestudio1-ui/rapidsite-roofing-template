@@ -7,8 +7,8 @@
 | **Figma source** | https://www.figma.com/design/lGAYHLhNmCUsC6aneYNFNL/Untitled?node-id=219-687 |
 | **Created** | 2026-08-30 |
 | **Technology** | Semantic HTML5, CSS (Grid/Flexbox, clamp(), CSS variables), vanilla JS |
-| **Deployment URL** | _filled in at deploy time_ |
-| **GitHub repository** | _filled in at deploy time_ |
+| **Deployment URL** | https://rapidsite-roofing-demo.netlify.app |
+| **GitHub repository** | https://github.com/rapidsitestudio1-ui/rapidsite-roofing-template |
 
 ## Signature interactions
 
